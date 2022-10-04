@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+#header {
+    background: linear-gradient(90deg, #72072D 0%, #FF005C 100%);
+    /*height: 100px;*/
+    /*width: 1163px;*/
+}
+
+.header-block h1 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 70;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+.header-block input {
+    width: 550px;
+    height: 33px;
+    background: rgba(196, 196, 196, 0.14);
+    border: 1px solid #FFFFFF;
+    color: white;
+    font-size: 16px;
+    padding-left: 90px;
+    border-radius: 86px;
+}
+
+.header-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header-block input h1 {
+    width: 650px;
+    height: 33px;
+    background: rgba(196, 196, 196, 0.14);
+    border: 1px solid #FFFFFF;
+    border-radius: 16px;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding-left: 20px;
+    /*margin-right: 40px;*/
+}
+
+.fax {
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fax svg {
+    margin: 0 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.true-block {
+    display: flex;
+    /*justify-content: center;*/
+    justify-content: space-between;
+    width: 985px;
+    height: 381px;
+    border-radius: 28px;
+    margin: 0 0 0 -80px;
+    position: relative;
+}
+
+.true-block div {
+    position: absolute;
+    top: 70px;
+    right: 20px;
+}
+
+.true-block ul {
+    width: 708px;
+    height: 300px;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 20px 0;
+    position: absolute;
+    left: 580px;
+    bottom: 30px;
+    color: #72072D;
+}
+
+.true-block ul li {
+    font-family: 'Inter', sans-serif;
+    margin-top: 50px;
+    width: 507px;
+    height: 29px;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    color: #FF005C;
+}
+.true-block ul a{
+    font-family: 'Inter', sans-serif;
+    margin-top: 50px;
+    width: 507px;
+    height: 29px;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    color: #FF005C;
+    transition: 2s;
+}
+.true-block ul a:hover{
+    color: blue;
+}
+.asu-gen {
+    display: flex;
+
+    justify-content: end;
+    margin: 0 110px;
+}
+
+.left h1 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 80px;
+    color: #72072D;
+
+}
+
+.image {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.image img{
+    padding: 20px 20px;
+}
+.keep h3{
+width:665px;
+height: 10px;
+    font-size: 40px;
+color: #72072D;
+}
+.see {
+    display: flex;
+    justify-content: space-around;
+    margin: 90px 0 0 30px;
+}
+.see img{
+    padding: 30px 28px;
+}
+.see h2{
+    margin: 0 0 0 30px;
+}
+.deva{
+    display: flex;
+    position: absolute;
+    left: 550px;
+    top: 1880px;
+    margin-top: 600px;
+}
+.sport {
+    width: 173px;
+    height: 29px;
+    left: 43px;
+    font-style: normal;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+footer{
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(269.84deg, #FF005C -10.98%, rgba(0, 0, 0, 0.88) 100%);
+}
+
+.footerLogo{
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footerLogo1 h3{
+
+    padding:  80px 55px 100px 80px;
+
+}
+.footer2 p{
+    margin: 30px 0 20px 0;
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+}
+.footer3 p{
+    margin: 30px 0 0 50px;
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+}
+.footer4 h5{
+    margin: 30px 0 0 50px;
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+}
+.footer4 a{
+    width: 150px;
+    margin: 30px 0 0 50px;
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+}
+
+.footerIcon{
+    display: flex;
+    margin: 5px 50px;
+}
+.footerIcon svg{
+
+    margin: 10px 3px;
+}
+.footer6{
+    margin: 30px 0 0 50px;
+    color: rgba(255, 255, 255, 0.68);
+}
+.line{
+    width: 1400px;
+    margin: 15px 0 0 150px  ;
+    height: 0px;
+    border: 0.5px solid rgba(255, 255, 255, 0.58);
+
+}
+.end p{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    color: rgba(255, 255, 255, 0.73);
+}
+.left-btn{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    color: #D118A8;
+    padding: 10px 25px;
+    border-radius: 100px;
+    display: block;
+    margin: 25px auto;
+}
